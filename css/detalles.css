@@ -1,0 +1,149 @@
+@import 'styles.css';
+#ent-spa{
+    width: 100%;
+    height: 250px;
+    background: url('http://2.bp.blogspot.com/-isL3YW4C0os/Unb8XDBgRBI/AAAAAAAANCQ/J_b7CCrW_o8/s1600/1-DSC_0620.JPG') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#carne-spa{
+    width: 100%;
+    height: 250px;
+    background: url('https://i.pinimg.com/originals/8c/10/f8/8c10f8b10c84cc6998a9d26ec6e1824b.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#acomp-spa{
+    width: 100%;
+    height: 250px;
+    background: url('https://i.pinimg.com/736x/38/50/5f/38505f398e7f4a95752db9c4cdc9129d.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#nuestra-spa{
+    width: 100%;
+    height: 250px;
+    background: url('https://www.curtamais.com.br/uploads/conteudos/cc358b49855a273fe7a513205051db05.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#postre-spa{
+    width: 100%;
+    height: 250px;
+    background: url('https://images.sellbrite.com/production/32906/CACAO-PW-12/2d32664f-9663-5ca3-8bdb-75a17564f65c.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#ent-pcpal{
+    width: 100%;
+    height: 250px;
+    background: url('https://daleel.global/wp-content/uploads/2019/10/o-MEDITERRANEAN-FOOD-facebook-1200x798.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#carne-pcpal{
+    width: 100%;
+    height: 250px;
+    background: url('https://pm1.narvii.com/7984/03a3db839a4b6db1b07dbeb749b5511c4e62a548r1-766-400v2_hq.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#tabla-pcpal{
+    width: 100%;
+    height: 250px;
+    background: url('https://www.caminosysabores.com.ar/wp-content/uploads/2018/06/CyS-Picada-Mundial-01-2-1024x684.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#nuestra-pcpal{
+    width: 100%;
+    height: 250px;
+    background: url('https://kiev.informator.ua/wp-content/uploads/2018/04/kuhnia.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+#ensal-pcpal{
+    width: 100%;
+    height: 250px;
+    background: url('https://laguiadelasvitaminas.com/wp-content/uploads/2015/07/que-es-lo-que-lleva-una-ensalada.jpg') no-repeat center center/cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: var(--col-pri);
+}
+.bloques{
+    padding-bottom: 5%;
+}
+
+.nombre{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail{    
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+}
+.precio{
+    font-size: 24px;
+    font-weight: bold;
+}

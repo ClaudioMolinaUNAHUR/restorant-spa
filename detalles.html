@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/detalles.css">
+    <link rel="stylesheet" href="./css/styles.css">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,600&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <title>Detalles: SPA Restorante</title>
+</head>
+<body>
+    <div class="d-flex flex-column container-fluid align-items-center">
+        <header class="bg-navbar container-fluid fixed-top">                       
+            <div class="navbar navbar-expand-md">
+                <a href="#" id="logo" class="text-white">
+                    <img src="./img/logoSPA-01.png" alt="logo" width="100px">
+                </a> 
+                <button class="navbar-toggler bg-white p-0 m-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon m-2"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <nav id="navegacion"class="navbar-nav p-2 d-flex justify-content-end align-items-center navegacion flex-md-nowrap flex-column flex-md-row flex-md-grow-1 text-center text-uppercase fw-bold">
+                        <button id="cambiar-modo" type="button" class="btn btn-light rounded-circle px-3 py-2 m-2"><i class="fa-solid fa-moon"></i></button>
+                        <a href="#" id="logo" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">SOBRE NOSOTROS</a>
+                        <a href="#" id="navMenu" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">MENU</a>
+                        <a href="#" id="navDetalle" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">DETALLES</a>
+                        <a href="#" id="navContacto"class="navhover cambiar-tono p-2 text-decoration-none colorprimario">CONTACTO</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <a id="pedido" href="contacto.html">
+            <div class="pedidoOnline d-flex flex-column text-center">
+                <span class="cambiar-tono colorprimario">PEDI</span>
+                <span class="cambiar-tono colorprimario">ONLINE</span>
+            </div>
+        </a>    
+    </div>
+    <main class="container-fluid">
+        <article class="bloques">
+            <div id="ent-spa"></div>
+            <div class="text-center fs-1">ENTRADAS</div>
+            <div class="text-center fs-4"><em>menu SPA</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Langostinos rebozados en panko. Timbal de verduras</span>
+                    <span class="detail m-1">Breaded panko shrimp with vegetables.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4100</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Empanadas (3) de lomo a cuchillo. Llasjua</span>
+                    <span class="detail m-1">Traditional meat Empanadas (3) & dressing</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1600</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Bruschetta de campo. Quesos vegetales y gírgolas doradas. Morrones asados. Pan de chía</span>
+                    <span class="detail m-1">Bruschetta. Plant Based cheeses. Oyster mushroom & roasted bell peppers. Chía bread</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1650</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="carne-spa"></div>
+            <div class="text-center fs-1">CARNE A LAS BRASAS</div>
+            <div class="text-center fs-4"><em>menu SPA</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Lomo Argentino de res a la leña (300 g.). Carne de pastura Pampeana</span>
+                    <span class="detail m-1">Grilled Argentine tenderloin (300 g.). Pampean pasture meat.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$5200</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Entraña de novillito (350 g.) alimentado a pastura</span>
+                    <span class="detail m-1">Young Steer Skirt steak. Fed on pasture.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$5200</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Asado Martillo (550 g.) a la leña. Cocción lenta.
+                        Para compartir. Guarnición a elección.</span>
+                    <span class="detail m-1">Thick rib. On rewood. Slow cooking. To share.  Side to choose.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$8900</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="acomp-spa"></div>
+            <div class="text-center fs-1">ACOMPANIAMIENTOS</div>
+            <div class="text-center fs-4"><em>menu SPA</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Papas Fritas.</span>
+                    <span class="detail m-1">French Fries.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1000</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Ensaladas de Tres Ingredientes</span>
+                    <span class="detail m-1">Three Ingredient Salad.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$2200</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="nuestra-spa"></div>
+            <div class="text-center fs-1">DE NUESTRA COCINA</div>
+            <div class="text-center fs-4"><em>menu SPA</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Lomo Cabernet. Reducción de vino tinto. Hortalizas salteadas.</span>
+                    <span class="detail m-1">Tenderloin. Wine reduction. Sauteed vegetables.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$6850</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Mollejas al verdeo. Batatas caramelizadas</span>
+                    <span class="detail m-1">Sweetbreads. Sweet potato chips.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$6850</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Bondiola a la cerveza negra. Pure de batata, miel y anacardo.</span>
+                    <span class="detail m-1">Braised Pork. Stout beer. Sweet potato & chestnuts.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4100</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Milhojas de pesca blanca. Caldo de almejas y langostinos. Espinacas salteadas, tomates secos y escamas de ajo.</span>
+                    <span class="detail m-1">White fishing Millefeuille. Clam and shrimp broth. Sauteed spinach, dried tomatoes and garlic flakes.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4600</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Risotto de hongos de pino y setas en chapa de hierro.</span>
+                    <span class="detail m-1">Mushroom risotto in an iron pan.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$3950</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="postre-spa"></div>
+            <div class="text-center fs-1">POSTRES</div>
+            <div class="text-center fs-4"><em>menu SPA</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Omelette surprise de maracuyá.</span>
+                    <span class="detail m-1">Passion fruit omelette.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1100</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Crème brûlée.</span>
+                    <span class="detail m-1">Crème brûlée.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1100</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Helados Artesanales El Fundador.</span>
+                    <span class="detail m-1">Artisanal Ice Cream.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1100</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Volcán de chocolate semiamargo y dulce de leche. Crema helada.</span>
+                    <span class="detail m-1">Bittersweet Chocolate Volcano & caramel. Ice cream.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1500</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Lemon Curd. Crema Cítrica. Crema helada. Naranjas confitadas.</span>
+                    <span class="detail m-1">Lemon Curd. Citrus Cream. Ice cream. Candied orange.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1100</span>
+                </div>  
+            </div>
+        </article>
+
+        <article class="bloques">
+            <div id="ent-pcpal"></div>
+            <div class="text-center fs-1">ENTRADAS</div>
+            <div class="text-center fs-4"><em>menu principal</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Gírgolas e Hinojos grillados. Pesto de albahaca. Hummus de alubias y Focaccia.</span>
+                    <span class="detail m-1">Oyster mushrooms and grilled fennel. Basil pesto. Bean Hummus and Focaccia.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1650</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Ensalada Mediterránea. Hojas, portobellos dorados, tomates confitados. Mostaza antigua. Sal de olivas.</span>
+                    <span class="detail m-1">Mediterranean salad. Leaves. Mushrooms, Old mustard. Olives salt.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1600</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Empanada de Salmon Fresco.</span>
+                    <span class="detail m-1">ada Salmon de Hand Salmón Pie.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$2100</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="carne-pcpal"></div>
+            <div class="text-center fs-1">A LA PARRILLA</div>
+            <div class="text-center fs-4"><em>menu principal</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Chorizo y Morcilla (Matrimonio).</span>
+                    <span class="detail m-1">Pork sausage and Black pudding (Marriage).</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4200</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Chorizo de Cerdo gratinado con Provoleta.</span>
+                    <span class="detail m-1">Pork sausage gratin with provolone cheese.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4200</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">AChinchulines Crocantes.</span>
+                    <span class="detail m-1">Grilled chitterlings.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$3900</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="tabla-pcpal"></div>
+            <div class="text-center fs-1">TABLAS</div>
+            <div class="text-center fs-4"><em>menu principal</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Tabla de Achuras para compartir Mollejas de Corazón, Chinchulín y Riñones.</span>
+                    <span class="detail m-1">Griilled mix:To share Heart Sweetbread, chitterlings and kidneys.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$4550</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Chorizo, Morcilla, Mollejas, Chinchulines, Riñones, Asado, Vacío, Bondiola, papas y batatas fritas.</span>
+                    <span class="detail m-1">Pork sausage, black pudding, sweetbread, chitterlings, kidneys, short ribs, Flank steak, pork tenderloin, with french fries and sweet patato fries.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$9880</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Provoleta Villegas, Mix de achuras, T-Bone, Lomo acompañado de papas o batatas o ensalada.</span>
+                    <span class="detail m-1">Griilled provolone, mix: Heart Sweetbread, chitterlings and kidneys. T-Bone, Loin, with french fries and sweet patato fries .</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$7610</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="nuestra-pcpal"></div>
+            <div class="text-center fs-1">NUESTRAS PASTAS</div>
+            <div class="text-center fs-4"><em>menu principal</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Sorrentino de Espinaca rellenos de Jamón y Queso con Salsas Scarparo; Pure de tomare, Jamón cocido, Panceta Ahumada, Cebolla de Verdeo y Crema de Leche.</span>
+                    <span class="detail m-1">Spinach Sorrentinos Stuffled with ham and cheese with Scarparo sauce; Tomato puree, cooked ham, Smoked bacon, green onion and milk cream.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1990</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Spaghetti nero di seppia con Salsa Alfredo con Camarones y Salmon Ahumado</span>
+                    <span class="detail m-1">Spaghetti nero di seppia with alfredo sauce with Shrimp and Smoked Salmon.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$2350</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Ñoquis de Calabaza con Crema de Espinaca.</span>
+                    <span class="detail m-1">Pumpkin gnocchi with spinach cream.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1820</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Fetuccini Casero co Estofado de Carne.</span>
+                    <span class="detail m-1">Homemade Fetuccini with beef stew.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1930</span>
+                </div>  
+            </div>
+        </article>
+        <article class="bloques">
+            <div id="ensal-pcpal"></div>
+            <div class="text-center fs-1">ENSALADAS</div>
+            <div class="text-center fs-4"><em>menu principal</em></div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Bocconcinos, cherry, Aceitunas Negras y Albahaca.</span>
+                    <span class="detail m-1">Bocconcini mozzarella, cherry tomato, black olives, and basilr seeds.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$920</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Clásica ensalada Caesar con Panceta opcional.</span>
+                    <span class="detail m-1">Caesar salad with Baicon.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1850</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Con Pollo.</span>
+                    <span class="detail m-1">With Chichen.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$1850</span>
+                </div>  
+            </div>
+            <div class="container d-flex justify-content-between">                
+                <div class="dato d-flex flex-column">
+                    <span class="nombre m-1">Con Salmon Ahumado</span>
+                    <span class="detail m-1">With Smoked Salmon.</span>
+                </div>
+                <div class="precio">
+                    <span class="precio m-1">$2350</span>
+                </div>  
+            </div>
+        </article>
+    </main>    
+    <footer>
+        <section class="bg-footer pb-5">
+            <article class="bg-footer contacto-footer d-flex flex-grow-0 flex-md-nowrap flex-column flex-md-row justify-content-center align-items-center">
+                <div class="mapa d-inline p-2 ">
+                    <img src="./img/mapa.jpg" alt="" >
+                </div>
+                <div class="contacto cambiar-tono colorprimario px-5 pt-5 ">
+                    <p>(+54 11) 1234-5678</p>
+                    <p>spapedidos@sparesto.com</p>
+                    <p>Av. España 2230, C1107 CABA</p>
+                    <p>HORARIOS:</p>
+                    <p>Todos Los Dias</p>
+                    <p>de 12 a 15 y de 20 a 01</p>
+                </div>
+                <div class="webapp cambiar-tono colorprimario p-2 ">
+                    <a href="#"><img src="./img/PEDIDOS-01.png" alt="" width="100px"></a>
+                </div>            
+            </article>
+        </section>
+            <article class="redes pt-3 d-flex justify-content-center align-items-center">
+                <a href="#"><span><i class="colorcuarto fa-brands fa-facebook-f fa-lg"></i></span></a>
+                <a href="#"><span><i class="colorcuarto fa-brands fa-instagram fa-lg"></i></span></a>
+                <h5><span class="firma colorcuarto fw-lighter">| Diseño: Molina</span></h5>
+            </article>
+    </footer>   
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

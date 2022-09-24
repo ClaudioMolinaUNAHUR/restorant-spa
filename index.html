@@ -10,33 +10,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,600&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <title>Main: Restorante</title>
+    <title>Main: SPA Restorante</title>
 </head>
 <body>
-    <header class="encabezado d-flex flex-column container-fluid align-items-center">
-        <div class="bg-navbar container-fluid fixed-top">                       
+    <div class="encabezado d-flex flex-column container-fluid align-items-center">
+        <header class="bg-navbar container-fluid fixed-top">                       
             <div class="navbar navbar-expand-md">
                 <a href="#" id="logo" class="text-white">
                     <img src="./img/logoSPA-01.png" alt="logo" width="100px">
                 </a> 
-                <button class="navbar-toggler bg-white p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler bg-white p-0  m-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon m-2"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <nav id="navegacion"class="navbar-nav p-2 d-flex justify-content-end align-items-center navegacion flex-md-nowrap flex-column flex-md-row flex-md-grow-1 text-center text-uppercase fw-bold">
-                        <button id="cambiar-modo" type="button" class="btn btn-light px-3 py-2 m-2"><i class="fa-solid fa-moon"></i></button>
-                        <a href="#about-us" class="cambiar-tono p-2 text-decoration-none colorprimario">SOBRE NOSOTROS</a>
-                        <a href="#menu" class="cambiar-tono p-2 text-decoration-none colorprimario">MENU</a>
-                        <a href="#detalles" class="cambiar-tono p-2 text-decoration-none colorprimario">DETALLES</a>
-                        <a href="#contacto" class="cambiar-tono p-2 text-decoration-none colorprimario">CONTACTO</a>
+                        <button id="cambiar-modo" type="button" class="btn btn-light px-3 py-2 m-2 rounded-circle"><i class="fa-solid fa-moon"></i></button>
+                        <a href="#" id="logo" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">SOBRE NOSOTROS</a>
+                        <a href="#" id="navMenu" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">MENU</a>
+                        <a href="#" id="navDetalle" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">DETALLES</a>
+                        <a href="#" id="navContacto"class="navhover cambiar-tono p-2 text-decoration-none colorprimario">CONTACTO</a>
                     </nav>
                 </div>
             </div>
-        </div>
-        <a id="pedido" href="#contacto">
+        </header>
+        <a id="pedido" href="contacto.html">
             <div class="pedidoOnline d-flex flex-column text-center">
-                <span>PEDI</span>
-                <span>ONLINE</span>
+                <span class="cambiar-tono colorprimario">PEDI</span>
+                <span class="cambiar-tono colorprimario">ONLINE</span>
             </div>
         </a>
         <div class="principal d-flex flex-column justify-content-center container">
@@ -47,14 +47,14 @@
                 <h2 class="mensaje cambiar-tono colorprimario text-center animate__animated animate__fadeInDown fst-italic fw-lighter">Bienvenido a la experiencia</h2>
             </div>            
         </div>        
-    </header>
+    </div>
     <footer>
-        <section class="bg-footer pb-5 container-fluid">
+        <section class="bg-footer pb-5">
             <article class="bg-footer contacto-footer d-flex flex-grow-0 flex-md-nowrap flex-column flex-md-row justify-content-center align-items-center">
-                <div class="mapa d-inline p-2 mx-auto">
+                <div class="mapa d-inline p-2 ">
                     <img src="./img/mapa.jpg" alt="" >
                 </div>
-                <div class="contacto cambiar-tono colorprimario px-5 pt-5 mx-auto">
+                <div class="contacto cambiar-tono colorprimario px-5 pt-5 ">
                     <p>(+54 11) 1234-5678</p>
                     <p>spapedidos@sparesto.com</p>
                     <p>Av. España 2230, C1107 CABA</p>
@@ -62,8 +62,8 @@
                     <p>Todos Los Dias</p>
                     <p>de 12 a 15 y de 20 a 01</p>
                 </div>
-                <div class="webapp cambiar-tono colorprimario p-2 mx-auto">
-                    <img src="./img/PEDIDOS-01.png" alt="" width="100px">
+                <div class="webapp cambiar-tono colorprimario p-2 ">
+                    <a href="#"><img src="./img/PEDIDOS-01.png" alt="" width="100px"></a>
                 </div>            
             </article>
         </section>

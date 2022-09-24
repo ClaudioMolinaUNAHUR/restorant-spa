@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="./css/form.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,600&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <title>Contacto: SPA Restorante</title>
+</head>
+<body>
+    <div class="d-flex flex-column container-fluid align-items-center">
+        <header class="bg-footer container-fluid  fixed-top border-bottom">                       
+            <div class="navbar navbar-expand-md">
+                <a href="#" id="logo" class="text-white">
+                    <img src="./img/logoSPA-01.png" alt="logo" width="100px">
+                </a> 
+                <button class="navbar-toggler bg-white p-0 m-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon m-2"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <nav id="navegacion"class="navbar-nav p-2 d-flex justify-content-end align-items-center navegacion flex-md-nowrap flex-column flex-md-row flex-md-grow-1 text-center text-uppercase fw-bold">
+                        <button id="cambiar-modo" type="button" class="btn btn-light px-3 py-2 m-2 rounded-circle"><i class="fa-solid fa-moon"></i></button>
+                        <a href="#" id="logo" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">SOBRE NOSOTROS</a>
+                        <a href="#" id="navMenu" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">MENU</a>
+                        <a href="#" id="navDetalle" class="navhover cambiar-tono p-2 text-decoration-none colorprimario">DETALLES</a>
+                        <a href="#" id="navContacto"class="navhover cambiar-tono p-2 text-decoration-none colorprimario">CONTACTO</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="d-flex flex-lg-row flex-column justify-content-center align-items-center container">
+            <div class="logo d-flex flex-column justify-content-center align-items-center m-5">
+                <img class="mb-5" src="./img/logoSPA-01.png" alt="" width="200px">
+                <img src="https://eventcartel.com/media/news/Best_Restaurant.jpg" alt="" width="400px">
+            </div>
+            <form class="form">
+                <div class="mb-3">
+                  <label for="detallaPedido" class="form-label">Detalla tu Pedido</label>
+                  <textarea type="text" class="form-control" id="detallaPedido" cols="20" rows="5" required></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="nombrePedido" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombrePedido" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dirPedido" class="form-label">Dirección de envio</label>
+                    <input type="text" class="form-control" id="dirPedido" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telPedido" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="telPedido" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">e-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <button type="button" id="enviar-mail"class="btn btn-enviar">Solicitar Pedido</button>
+              </form>            
+        </main>
+        <div id="mensajeForm" class="container text-center justify-content-center mb-3"></div>       
+    </div>
+    <footer class="border-top">
+        <section class="bg-footer pb-5">
+            <article class="bg-footer contacto-footer d-flex flex-grow-0 flex-md-nowrap flex-column flex-md-row justify-content-center align-items-center">
+                <div class="mapa d-inline p-2 ">
+                    <img src="./img/mapa.jpg" alt="" >
+                </div>
+                <div class="contacto cambiar-tono colorprimario px-5 pt-5 ">
+                    <p>(+54 11) 1234-5678</p>
+                    <p>spapedidos@sparesto.com</p>
+                    <p>Av. España 2230, C1107 CABA</p>
+                    <p>HORARIOS:</p>
+                    <p>Todos Los Dias</p>
+                    <p>de 12 a 15 y de 20 a 01</p>
+                </div>
+                <div class="webapp cambiar-tono colorprimario p-2 ">
+                    <a href="#"><img src="./img/PEDIDOS-01.png" alt="" width="100px"></a>
+                </div>            
+            </article>
+        </section>
+            <article class="redes pt-3 d-flex justify-content-center align-items-center">
+                <a href="#"><span><i class="colorcuarto fa-brands fa-facebook-f fa-lg"></i></span></a>
+                <a href="#"><span><i class="colorcuarto fa-brands fa-instagram fa-lg"></i></span></a>
+                <h5><span class="firma colorcuarto fw-lighter">| Diseño: Molina</span></h5>
+            </article>
+    </footer>         
+    <script src="app.js"></script>
+    <script src="validar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
